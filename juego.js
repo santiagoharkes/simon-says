@@ -155,7 +155,7 @@ class Juego {
         }
 
         ganoElJuego(){
-            swal('Biennn!!', 'Ganaste pichissss!', 'success')
+            swal('Biennn!!', 'Ganaste!', 'success')
                 .then (() => {
                     this.inicializar()
                 })
